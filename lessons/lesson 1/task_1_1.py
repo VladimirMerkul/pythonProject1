@@ -1,0 +1,10 @@
+a = 23
+b = 15
+c = ( a + b )
+d = ( a - b )
+e = ( a * b )
+print ( 'первое число=' + str ( a ))
+print ( 'второе число=' + str ( b ))
+print ( 'сумма=' + str( c ))
+print ( 'разность=' + str( d ))
+print ( 'произведение=' + str( e ))
