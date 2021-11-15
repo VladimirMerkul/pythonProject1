@@ -28,15 +28,15 @@ def kg_funt():
     funt = kg / 0.45
     print (funt)
 
-def ozz_gr():
-    ozz = float (input ('Введите унции для перевода в граммы'))
-    gr = ozz * 0.035
+def oz_gr():
+    oz = float (input ('Введите унции для перевода в граммы'))
+    gr = oz * 0.035
     print (gr)
 
-def gr_ozz():
+def gr_oz():
     gr = float (input ('Введите граммы для перевода в унции'))
-    ozz = gr / 0.035
-    print (ozz)
+    oz = gr / 0.035
+    print (oz)
 
 def gl_lt():
     gl = float (input ('Введите галлоны для перевода в литры'))
@@ -93,10 +93,10 @@ while x != 0:
         kg_funt()
 
     if x == 7:
-        ozz_gr()
+        oz_gr()
 
     if x == 8:
-        gr_ozz()
+        gr_oz()
 
     if x == 9:
         gl_lt()
