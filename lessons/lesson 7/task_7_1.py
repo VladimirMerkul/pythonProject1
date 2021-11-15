@@ -15,7 +15,7 @@ def mile_km():
 
 def km_mile():
     km = float (input ('Введите километры для перевода в мили'))
-    mile = km /1.6
+    mile = km / 1.6
     print (mile)
 
 def funt_kg():
